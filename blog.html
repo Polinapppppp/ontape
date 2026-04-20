@@ -22,6 +22,9 @@
                         <nav aria-label="Основная навигация" class="desktop-nav">
                             <ul class="nav__list">
                                 <li class="nav__item">
+                                    <a class="nav__link" href="index.html">Главная</a>
+                                </li>
+                                <li class="nav__item">
                                     <a class="nav__link" href="services.html">Услуги</a>
                                 </li>
                                 <li class="nav__item">
@@ -31,21 +34,18 @@
                                     <a class="nav__link" href="company.html">компания</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a class="nav__link" href="blog.html">ГАЙДЫ</a>
+                                    <a class="nav__link" href="blog.html">блог</a>
                                 </li>
                                 <li class="nav__item">
                                     <a class="nav__link" href="contacts.html">Контакты</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="company.html#vacancy">Вакансии</a>
                                 </li>
                             </ul>
                         </nav>
 
                         <div class="header__right">
-                            <a href="tel:+79153136392" class="header__phone">+7 (915) 313-63-92</a>
                             <div class="header__right_icon flex_row">
-                                <a href="" target="_blank" class="icon-btn" aria-label="Telegram">
+                                <a href="https://t.me/@Ontape_Design" target="_blank" class="icon-btn"
+                                    aria-label="Telegram">
                                     <svg class="icon-btn__icon" width="26" height="26" viewBox="0 0 26 26" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_673_715)">
@@ -63,7 +63,8 @@
                                         </defs>
                                     </svg>
                                 </a>
-                                <a href="" target="_blank" class="icon-btn" aria-label="WhatsApp">
+                                <a href="https://wa.me/+7 916 425 13 33" target="_blank" class="icon-btn"
+                                    aria-label="WhatsApp">
                                     <svg class="icon-btn__icon" width="26" height="26" viewBox="0 0 26 26" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -84,9 +85,7 @@
                     </div>
 
                     <div class="mobile-menu" id="mobileMenu">
-                        <div class="header__right">
-                            <a href="tel:+79153136392" class="header__phone">+7 (915) 313-63-92</a>
-                        </div>
+
                         <ul class="nav__list">
                             <ul class="nav__list">
                                 <li class="nav__item">
@@ -128,7 +127,7 @@
                                 <li class="breadcrumbs__separator">/</li>
                                 &nbsp;
                                 <li class="breadcrumbs__item">
-                                    <span class="breadcrumbs__current">Блог</span>
+                                    <a class="breadcrumbs__link" href="blog.html">Блог</a>
                                 </li>
                             </ol>
                         </nav>
@@ -145,236 +144,271 @@
                 </div>
                 <div class="text_block__v10--content grid-3">
                     <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(114, 244, 67, 1);">Дизайн</p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
+                        <a href="#">
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(114, 244, 67, 1);">Дизайн
+                                </p>
                             </div>
-                        </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(239, 83, 69, 1)">Маркетинг</p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(239, 83, 69, 1)">Маркетинг
+                                </p>
                             </div>
-                        </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(137, 188, 255, 1);">Разработка
-                            </p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(137, 188, 255, 1);">
+                                    Разработка
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text_block__v10--content grid-3">
-                    <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(114, 244, 67, 1);">Дизайн</p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
                                     </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
                                 </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(239, 83, 69, 1)">Маркетинг</p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(137, 188, 255, 1);">Разработка
-                            </p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="text_block__v10--content grid-3">
                     <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(114, 244, 67, 1);">Дизайн</p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(114, 244, 67, 1);">Дизайн
+                                </p>
                             </div>
-                        </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(239, 83, 69, 1)">Маркетинг</p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(239, 83, 69, 1)">Маркетинг
+                                </p>
                             </div>
-                        </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="text_block__v10--card card">
-                        <div class="text_block__v10_img">
-                            <img src="./assets/images/articles/Rectangle 25.png" alt="">
-                            <p class="text_block__v10_tag" style="background-color: rgba(137, 188, 255, 1);">Разработка
-                            </p>
-                        </div>
-                        <div class="text_block__v10--card_content">
-                            <h2>Как создать сайт,
-                                который будет продавать?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                hendrerit mimi.</p>
-                            <div class="text_block__v10_bottom">
-                                <div class="text_block__v10_info_tags flex_row">
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Vector-3.svg" alt="">
-                                        <p>12 минут</p>
-                                    </div>
-                                    <div class="text_block__v10_info flex_row">
-                                        <img src="./assets/images/articles/Group 1321315159.svg" alt="">
-                                        <p>3k просмотров</p>
-                                    </div>
-                                </div>
-                                <a href="" class="text_block__v10--btn">Подробнее</a>
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(137, 188, 255, 1);">
+                                    Разработка
+                                </p>
                             </div>
-                        </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_block__v10--content grid-3">
+                    <div class="text_block__v10--card card">
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(114, 244, 67, 1);">Дизайн
+                                </p>
+                            </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text_block__v10--card card">
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(239, 83, 69, 1)">Маркетинг
+                                </p>
+                            </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text_block__v10--card card">
+                        <a href="#">
+
+                            <div class="text_block__v10_img">
+                                <img src="./assets/images/articles/Rectangle 25.png" alt="">
+                                <p class="text_block__v10_tag" style="background-color: rgba(137, 188, 255, 1);">
+                                    Разработка
+                                </p>
+                            </div>
+                            <div class="text_block__v10--card_content">
+                                <h2>Как создать сайт,
+                                    который будет продавать?</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
+                                    hendrerit mimi.</p>
+                                <div class="text_block__v10_bottom">
+                                    <div class="text_block__v10_info_tags flex_row">
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Vector-3.svg" alt="">
+                                            <p>12 минут</p>
+                                        </div>
+                                        <div class="text_block__v10_info flex_row">
+                                            <img src="./assets/images/articles/Group 1321315159.svg" alt="">
+                                            <p>3k просмотров</p>
+                                        </div>
+                                    </div>
+                                    <a href="" class="text_block__v10--btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -480,10 +514,10 @@
                                 <h4>Email</h4>
                                 <a href="mailto:ontape-design@yandex.ru">ontape-design@yandex.ru</a>
                             </div>
-                            <div class="footer_tel flex_column">
+                            <!-- <div class="footer_tel flex_column">
                                 <h4>Телефон</h4>
                                 <a href="tel:+79153136392">+7 (915) 313-63-92</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
