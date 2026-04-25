@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/scripts/script2.js" defer></script>
     <script src="./assets/scripts/script.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
@@ -15,7 +16,7 @@
         <!-- header -->
         <header class="header">
             <div class="container">
-                <div class="header__inner">
+                <div class="header__inner ">
                     <div class="header__top">
                         <a class="logo" href="index.html">
                             <img src="./assets/images/logo/Frame 1321315060.svg" alt="Логотип">
@@ -63,7 +64,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <a href="" class="header__right_btn js-open-modal">Оставить заявку</a>
+                            <a href="" class="header__right_btn light--btn js-open-modal">Оставить заявку</a>
 
                             <button class="burger-btn" id="burgerBtn" type="button">
                                 <span></span>
@@ -75,17 +76,17 @@
 
                     <div class="mobile-menu" id="mobileMenu">
                         <ul class="nav__list">
-                           <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
-                                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
-                                <li class="nav__item"><a class="nav__link" href="cases.html">Портфолио</a></li>
-                                <li class="nav__item"><a class="nav__link" href="company.html">Компания</a></li>
-                                <li class="nav__item"><a class="nav__link" href="blog.html">Блог</a></li>
-                                <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
+                            <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
+                            <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
+                            <li class="nav__item"><a class="nav__link" href="cases.html">Портфолио</a></li>
+                            <li class="nav__item"><a class="nav__link" href="company.html">Компания</a></li>
+                            <li class="nav__item"><a class="nav__link" href="blog.html">Блог</a></li>
+                            <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
                         </ul>
 
                         <div class="header__right mobile-only-right"
                             style="margin-top: 20px; display: flex; gap: 10px;">
-                            <a href="" class="header__right_btn" style="width: 100%; text-align: center;">Оставить
+                            <a href="#" class="header__right_btn light--btn js-open-modal" style="width: 100%; text-align: center;">Оставить
                                 заявку</a>
                         </div>
                     </div>
@@ -116,7 +117,7 @@
                         <h2 class="title">КЕЙСЫ</h2>
                     </div>
 
-                    <a href="cases.html" class="cases_filter--btn">Посмотреть все кейсы</a>
+                    <a href="cases.html" class="cases_filter--btn light--btn">Посмотреть все кейсы</a>
                 </div>
                 <div class="cases--content flex_column static">
                     <div class="cases_cards grid-2">
@@ -207,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="cases--btn">Загрузить еще</a>
+                    <a href="" class="cases--btn light--btn">Загрузить еще</a>
                 </div>
             </section>
 
@@ -264,7 +265,7 @@
             </section>
 
             <div class="container top_mar_24">
-                <section class="section text_block__v2" style="background-image: url(./assets/images/form/form.png);">
+                <section class="section text_block__v2" style="background-image: url(./assets/images/form/form.png); background-position: 0%;">
                     <div class="text_block__v2--content">
                         <div class="text_block__v2--title">
                             <h2>Оставьте заявку
@@ -274,7 +275,7 @@
                             <label class="form_checkbox">
                                 <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
                                 <span class="form-checkbox__text">Я согласен(а) на обработку
-                                    персональных&nbsp;данных</span>
+                                    <a class="uderline-span js-cookie-popup">персональных&nbsp;данных</a></span>
                             </label>
                         </div>
                         <form action="#" class="text_block__v2--form form_section">
@@ -295,8 +296,6 @@
                                 </div>
 
                                 <button class="form_section__btn">Оставить заявку</button>
-
-
                             </div>
                         </form>
                     </div>
@@ -339,7 +338,8 @@
                                         </div>
                                     </div>
                                     <div class="text_block__v3_btm_info flex_column">
-                                        <a class="text_block__v3__title--btn js-open-modal" href="#">Оставить заявку</a>
+                                        <a class="text_block__v3__title--btn light--btn js-open-modal" href="#">Оставить
+                                            заявку</a>
                                     </div>
                                 </div>
                             </div>
@@ -358,7 +358,8 @@
                                             <p>Масштабирование бизнеса</p>
                                         </div>
                                     </div>
-                                    <a class="text_block__v3__title--btn js-open-modal" href="#">Оставить заявку</a>
+                                    <a class="text_block__v3__title--btn light--btn js-open-modal" href="#">Оставить
+                                        заявку</a>
                                 </div>
                             </div>
                             <div class="text_block__v3--card card-4 flex_column">
@@ -376,7 +377,8 @@
                                             <p>Презентацию услуг</p>
                                         </div>
                                     </div>
-                                    <a class="text_block__v3__title--btn js-open-modal" href="#">Оставить заявку</a>
+                                    <a class="text_block__v3__title--btn light--btn js-open-modal" href="#">Оставить
+                                        заявку</a>
                                 </div>
                             </div>
                         </div>
@@ -398,7 +400,7 @@
                                     <p>Легкое масштабирование проектов</p>
                                 </div>
 
-                                <a class="text_block__v3--btn js-open-modal">Оставить заявку</a>
+                                <a class="text_block__v3--btn light--btn js-open-modal">Оставить заявку</a>
                             </div>
                             <div class="text_block__v3--card_v3 card flex_column">
                                 <p class="text_block__v3_subtitle">ДЛЯ СЛОЖНЫХ ПРОЕКТОВ </p>
@@ -418,7 +420,7 @@
                                     <p>Готовность к высоким нагрузкам</p>
                                     <p>Надежность</p>
                                 </div>
-                                <a class="text_block__v3--btn js-open-modal">Оставить заявку</a>
+                                <a class="text_block__v3--btn light--btn js-open-modal">Оставить заявку</a>
 
                             </div>
                             <div class="text_block__v3--card_v3 card flex_column">
@@ -435,7 +437,7 @@
                                 <div class="text_block__v3_cheaps_tags flex_row">
                                     <p>Максимальная производительность</p>
                                 </div>
-                                <a class="text_block__v3--btn js-open-modal">Оставить заявку</a>
+                                <a class="text_block__v3--btn light--btn js-open-modal">Оставить заявку</a>
 
                             </div>
 
@@ -534,9 +536,9 @@
                             <div class="card-content">
                                 <h3>ДИЗАЙН</h3>
                                 <p class="card-desc">СТИЛИ И ВИЗУАЛ</p>
-                                <p class="card-text">Работаем с карточным, бенто и модульным
-                                    подходами: создаем адаптивные интерфейсы,&nbsp;сочетаем тренды и
-                                    функциональность</p>
+                                <p class="card-text">Работаем с карточным, бенто и&nbsp;модульным
+                                    подходами: создаем адаптивные интерфейсы, сочетаем тренды и&nbsp;функциональность
+                                </p>
                             </div>
                             <div class="card-icons-bg">
                                 <img src="./assets/images/stack/Slider control panel (horizontal)-2.png" alt=""
@@ -553,9 +555,8 @@
                             <div class="card-content">
                                 <h3>МАРКЕТИНГ</h3>
                                 <p class="card-desc">ПРОДВИЖЕНИЕ И КОНТЕНТ</p>
-                                <p class="card-text">Выстраиваем воронки и контент по
-                                    моделям: AIDA, PAS и 4P. Создаем сайты, которые привлекают, вовлекают и
-                                    конвертируют.</p>
+                                <p class="card-text">Выстраиваем воронки и контент по&nbsp;моделям: AIDA, PAS и 4P.
+                                    Создаем сайты, которые привлекают, вовлекают и&nbsp;конвертируют.</p>
                             </div>
                             <div class="card-icons-bg">
                                 <img src="./assets/images/stack/Power button.png" alt="" class="icon-float icon-8">
@@ -573,78 +574,74 @@
                         <h2 class="title">НАШИ ПАРТНЕРЫ</h2>
                     </div>
 
-                    <div class="partners_slider partners_slider--forward swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner1.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner2.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner3.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner4.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner5.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner6.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner7.png"
-                                    alt=""></div>
-
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner1.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner2.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner3.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner4.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner5.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner6.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner7.png"
-                                    alt=""></div>
+                    <div class="partners_content container">
+                        <div class="partners_slider partners_slider--forward swiper ">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner18.svg" alt="">
+                                    
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner1.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner2.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner3.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner4.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner5.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner6.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner7.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner8.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="partners_slider partners_slider--reverse swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner8.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner9.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner10.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner11.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner12.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner13.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner14.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner15.png"
-                                    alt=""></div>
-
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner8.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner9.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner10.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner11.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner12.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner13.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner14.png"
-                                    alt=""></div>
-                            <div class="swiper-slide partners_slide"><img src="./assets/images/logo/partner15.png"
-                                    alt=""></div>
+                        <div class="partners_slider partners_slider--reverse swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner9.svg" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner10.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner11.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner12.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner13.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner14.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner15.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner162.png" alt="">
+                                </div>
+                                <div class="swiper-slide partners_slide">
+                                    <img src="./assets/images/logo/partner17.png" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
+
+
 
 
                 <div class="container top_mar btm_pad">
@@ -659,7 +656,7 @@
                                 <label class="form_checkbox">
                                     <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
                                     <span class="form-checkbox__text">Я согласен(а) на обработку
-                                        персональных&nbsp;данных</span>
+                                        <a class="uderline-span js-cookie-popup">персональных&nbsp;данных</a></span>
                                 </label>
                             </div>
                             <form action="#" class="text_block__v2--form form_section">
@@ -708,7 +705,8 @@
                                         <p>WhatsApp<span class="footer_span">*</span></p>
                                     </a>
                                 </div>
-                                <p class="footer_warning"><span class="footer_span">*</span>запрещенная организация на
+                                <p class="footer_warning"><span class="footer_span">*</span>запрещенная организация
+                                    на
                                     территории
                                     РФ</p>
                             </div>
@@ -747,10 +745,7 @@
                                 <h4>Email</h4>
                                 <a href="mailto:ontape-design@yandex.ru">ontape-design@yandex.ru</a>
                             </div>
-                            <!-- <div class="footer_tel flex_column">
-                                <h4>Телефон</h4>
-                                <a href="tel:+79153136392">+7 (915) 313-63-92</a>
-                            </div> -->
+
                         </div>
                     </div>
                 </div>
@@ -779,7 +774,7 @@
                             <label class="fpopup_checkbox">
                                 <input class="popup_checkbox__input" type="checkbox" name="agreement" id="" required>
                                 <span class="popup-checkbox__text">Я согласен(а) на обработку
-                                    персональных данных</span>
+                                    <a class="uderline-span js-cookie-popup">персональных данных</a></span>
                             </label>
                         </div>
                         <button type="submit">Оставить заявку</button>
@@ -806,7 +801,7 @@
 
 
             <div class="cookie-modal container" id="cookieModal">
-                <div class="cookie-modal__content">
+                <div class="cookie-modal__content container">
                     <button class="cookie-modal__close" aria-label="Закрыть"><svg width="12" height="12"
                             viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13 13L1 1M13 1L1 13" stroke="white" stroke-width="2" stroke-linecap="round"
@@ -816,10 +811,10 @@
                     <h3 class="cookie-modal__title">Файлы Cookie</h3>
                     <div class="cookie__agree">
                         <p class="cookie-modal__text">
-                            Наш сайт использует куки. Продолжая им пользоваться, вы&nbsp;соглашаетесь на обработку
-                            персональных
-                            данных в соответствии с
-                            <a href="policy.html" class="cookie-modal__link">политикой конфиденциальности.</a>
+                            Наш сайт использует куки.<br>
+                            Продолжая им пользоваться, вы&nbsp;соглашаетесь на обработку
+                            персональных данных в соответствии с <a href="policy.html"
+                                class="cookie-modal__link">политикой конфиденциальности.</a>
                         </p>
                         <button class="cookie-modal__btn js-cookie-accept">Согласен(а)</button>
                     </div>

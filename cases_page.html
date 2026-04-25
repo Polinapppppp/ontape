@@ -12,9 +12,9 @@
 <body>
     <div id="page" class="site">
         <!-- header -->
-        <header class="header">
+       <header class="header">
             <div class="container">
-                <div class="header__inner">
+                <div class="header__inner ">
                     <div class="header__top">
                         <a class="logo" href="index.html">
                             <img src="./assets/images/logo/Frame 1321315060.svg" alt="Логотип">
@@ -62,7 +62,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <a href="" class="header__right_btn js-open-modal">Оставить заявку</a>
+                            <a href="" class="header__right_btn light--btn js-open-modal">Оставить заявку</a>
 
                             <button class="burger-btn" id="burgerBtn" type="button">
                                 <span></span>
@@ -75,16 +75,16 @@
                     <div class="mobile-menu" id="mobileMenu">
                         <ul class="nav__list">
                             <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
-                                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
-                                <li class="nav__item"><a class="nav__link" href="cases.html">Портфолио</a></li>
-                                <li class="nav__item"><a class="nav__link" href="company.html">Компания</a></li>
-                                <li class="nav__item"><a class="nav__link" href="blog.html">Блог</a></li>
-                                <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
+                            <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
+                            <li class="nav__item"><a class="nav__link" href="cases.html">Портфолио</a></li>
+                            <li class="nav__item"><a class="nav__link" href="company.html">Компания</a></li>
+                            <li class="nav__item"><a class="nav__link" href="blog.html">Блог</a></li>
+                            <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
                         </ul>
 
                         <div class="header__right mobile-only-right"
                             style="margin-top: 20px; display: flex; gap: 10px;">
-                            <a href="" class="header__right_btn" style="width: 100%; text-align: center;">Оставить
+                            <a href="#" class="header__right_btn light--btn js-open-modal" style="width: 100%; text-align: center;">Оставить
                                 заявку</a>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                     <div class="card span-2 about_company__cover">
                         <h3 class="about_company__cover_title">Современные дома
                             по технологии фахверк</h3>
-                        <a href="" class="about_company--btn js-open-modal">Хочу такой сайт</a>
+                        <a href="" class="about_company--btn light--btn js-open-modal">Хочу такой сайт</a>
                         <img class="abs-cover" src="./assets/images/page_case/nkgjixe3es2k0cgmjjiyq5aw6284ukph 1.png"
                             alt="Теплые дома для жизни">
                     </div>
@@ -244,7 +244,7 @@
 
                         <div class="cases_card card" style="background-color: rgba(87, 218, 218, 0.65);">
                             <div class="cases_card--content"
-                                style="background-image: url('./assets/images/cases/истра\ 2\ 1-2.png');">
+                                style="background-image: url('./assets/images/cases/истра.png')">
                                 <p class="cases_card_desc">КОТТЕДЖНЫЙ ПОСЕЛОК</p>
                                 <h3>РЕЗИДЕНЦИИ ИСТРА</h3>
                                 <div class="cases_card__cheaps flex_column">
@@ -308,8 +308,8 @@
                 </div>
             </section>
 
-            <div class="top_mar">
-                <div class="container top_pad_62 btm_pad">
+           
+                <div class="container top_mar btm_pad">
                     <section class="section text_block__v2"
                         style="background-image: url(./assets/images/form/form2.png);">
                         <div class="text_block__v2--content">
@@ -321,7 +321,7 @@
                                 <label class="form_checkbox">
                                     <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
                                     <span class="form-checkbox__text">Я согласен(а) на обработку
-                                        персональных&nbsp;данных</span>
+                                        <a class="uderline-span js-cookie-popup">персональных&nbsp;данных</a></span>
                                 </label>
                             </div>
                             <form action="#" class="text_block__v2--form form_section">
@@ -347,7 +347,6 @@
                         </div>
                     </section>
                 </div>
-            </div>
 
             <footer>
                 <div class="footer_inner container grid-2">
@@ -417,6 +416,26 @@
                     </div>
                 </div>
             </footer>
+            <div class="cookie-modal container" id="cookieModal">
+                <div class="cookie-modal__content container">
+                    <button class="cookie-modal__close" aria-label="Закрыть"><svg width="12" height="12"
+                            viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 13L1 1M13 1L1 13" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <h3 class="cookie-modal__title">Файлы Cookie</h3>
+                    <div class="cookie__agree">
+                        <p class="cookie-modal__text">
+                            Наш сайт использует куки.<br>
+                            Продолжая им пользоваться, вы&nbsp;соглашаетесь на обработку
+                            персональных данных в соответствии с <a href="policy.html"
+                                class="cookie-modal__link">политикой конфиденциальности.</a>
+                        </p>
+                        <button class="cookie-modal__btn js-cookie-accept">Согласен(а)</button>
+                    </div>
+                </div>
+            </div>
             <div class="close-popup" id="popupModal">
                 <div class="close-popup__form flex_column">
                     <h2>Оставить заявку</h2>
@@ -441,7 +460,7 @@
                             <label class="fpopup_checkbox">
                                 <input class="popup_checkbox__input" type="checkbox" name="agreement" id="" required>
                                 <span class="popup-checkbox__text">Я согласен(а) на обработку
-                                    персональных данных</span>
+                                    <a class="uderline-span js-cookie-popup">персональных данных</a></span>
                             </label>
                         </div>
                         <button type="submit">Оставить заявку</button>
