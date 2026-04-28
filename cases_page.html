@@ -12,7 +12,7 @@
 <body>
     <div id="page" class="site">
         <!-- header -->
-       <header class="header">
+        <header class="header">
             <div class="container">
                 <div class="header__inner ">
                     <div class="header__top">
@@ -84,7 +84,8 @@
 
                         <div class="header__right mobile-only-right"
                             style="margin-top: 20px; display: flex; gap: 10px;">
-                            <a href="#" class="header__right_btn light--btn js-open-modal" style="width: 100%; text-align: center;">Оставить
+                            <a href="#" class="header__right_btn light--btn js-open-modal"
+                                style="width: 100%; text-align: center;">Оставить
                                 заявку</a>
                         </div>
                     </div>
@@ -222,8 +223,9 @@
                     <div class="cases_cards grid-2">
 
                         <div class="cases_card card" style="background-color: rgba(245, 177, 30, 0.65);">
-                            <div class="cases_card--content"
-                                style="background-image: url('./assets/images/cases/сх.png');">
+                            <div class="cases_card--content">
+                                <div class="cases_card--bg-image"
+                                    style="background-image: url('./assets/images/cases/сх.png');"></div>
                                 <p class="cases_card_desc">СТРОИТЕЛЬНАЯ КОМПАНИЯ</p>
                                 <h3>СТРОЙ ХАУЗ</h3>
                                 <div class="cases_card__cheaps flex_column">
@@ -243,10 +245,12 @@
                         </div>
 
                         <div class="cases_card card" style="background-color: rgba(87, 218, 218, 0.65);">
-                            <div class="cases_card--content"
-                                style="background-image: url('./assets/images/cases/истра.png')">
+                            <div class="cases_card--content residence">
+                                <div class="cases_card--bg-image"
+                                    style="background-image: url('./assets/images/cases/истра.png');"></div>
                                 <p class="cases_card_desc">КОТТЕДЖНЫЙ ПОСЕЛОК</p>
-                                <h3>РЕЗИДЕНЦИИ ИСТРА</h3>
+                                <h3>РЕЗИДЕНЦИИ
+                                    ИСТРА</h3>
                                 <div class="cases_card__cheaps flex_column">
                                     <p>Особенности проекта:</p>
                                     <div class="cases_card__adv flex_row">
@@ -264,8 +268,9 @@
 
 
                         <div class="cases_card card" style="background-color: rgba(248, 107, 52, 0.65);">
-                            <div class="cases_card--content"
-                                style="background-image: url('./assets/images/cases/хаусбот.png');">
+                            <div class="cases_card--content">
+                                <div class="cases_card--bg-image"
+                                    style="background-image: url('./assets/images/cases/хаусбот.png');"></div>
                                 <p class="cases_card_desc">СТРОИТЕЛЬНАЯ КОМПАНИЯ</p>
                                 <h3>HOUSE-BOAT.PRO</h3>
                                 <div class="cases_card__cheaps flex_column">
@@ -285,8 +290,9 @@
 
 
                         <div class="cases_card card" style="background-color: rgba(61, 140, 243, 0.65);">
-                            <div class="cases_card--content"
-                                style="background-image: url('./assets/images/cases/бфл.png');">
+                            <div class="cases_card--content">
+                                <div class="cases_card--bg-image"
+                                    style="background-image: url('./assets/images/cases/бфл.png');"></div>
                                 <p class="cases_card_desc">СТРОИТЕЛЬНАЯ КОМПАНИЯ</p>
                                 <h3>BOX FOR LIFE</h3>
                                 <div class="cases_card__cheaps flex_column">
@@ -300,53 +306,51 @@
                                 </div>
                             </div>
                             <div class="cases_card__bg">
-                                <h4 style="white-space: pre-line;">BOX FOR
-                                    LIFE</h4>
+                                <h4>BOX FOR LIFE</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-           
-                <div class="container top_mar btm_pad">
-                    <section class="section text_block__v2"
-                        style="background-image: url(./assets/images/form/form2.png);">
-                        <div class="text_block__v2--content">
-                            <div class="text_block__v2--title">
-                                <h2>Оставьте заявку
-                                    на&nbsp;<span class="form-span">создание сайта</span></h2>
-                                <p>Обсудим ваш проект и предложим лучшие&nbsp;решения под ваши задачи
-                                </p>
-                                <label class="form_checkbox">
-                                    <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
-                                    <span class="form-checkbox__text">Я согласен(а) на обработку
-                                        <a class="uderline-span js-cookie-popup">персональных&nbsp;данных</a></span>
-                                </label>
-                            </div>
-                            <form action="#" class="text_block__v2--form form_section">
-                                <div class="form_section__fields">
-                                    <div class="form_group">
-                                        <label for="name" class="form_label">Ваше имя*</label>
-                                        <input type="text" class="form_input" name="name" placeholder="Иван Иванов"
-                                            required>
-                                    </div>
-                                    <div class="form_group">
-                                        <label for="tel" class="form_label">Телефон для связи*</label>
-                                        <input type="tel" class="form_input" name="tel" placeholder="+7 (000) 000-00-00"
-                                            required>
-                                    </div>
-                                    <div class="form_group">
-                                        <label for="tel" class="form_label">Никнейм в Telegram</label>
-                                        <input type="tel" class="form_input" name="tel" placeholder="@ontape" required>
-                                    </div>
 
-                                    <button class="form_section__btn">Оставить заявку</button>
-                                </div>
-                            </form>
+            <div class="container top_mar btm_pad">
+                <section class="section text_block__v2" style="background-image: url(./assets/images/form/form2.png);">
+                    <div class="text_block__v2--content">
+                        <div class="text_block__v2--title">
+                            <h2>Оставьте заявку
+                                на&nbsp;<span class="form-span">создание сайта</span></h2>
+                            <p>Обсудим ваш проект и предложим лучшие&nbsp;решения под ваши задачи
+                            </p>
+                            <label class="form_checkbox">
+                                <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
+                                <span class="form-checkbox__text">Я согласен(а) на обработку
+                                    <a class="uderline-span js-cookie-popup">персональных&nbsp;данных</a></span>
+                            </label>
                         </div>
-                    </section>
-                </div>
+                        <form action="#" class="text_block__v2--form form_section">
+                            <div class="form_section__fields">
+                                <div class="form_group">
+                                    <label for="name" class="form_label">Ваше имя*</label>
+                                    <input type="text" class="form_input" name="name" placeholder="Иван Иванов"
+                                        required>
+                                </div>
+                                <div class="form_group">
+                                    <label for="tel" class="form_label">Телефон для связи*</label>
+                                    <input type="tel" class="form_input" name="tel" placeholder="+7 (000) 000-00-00"
+                                        required>
+                                </div>
+                                <div class="form_group">
+                                    <label for="tel" class="form_label">Никнейм в Telegram</label>
+                                    <input type="tel" class="form_input" name="tel" placeholder="@ontape" required>
+                                </div>
+
+                                <button class="form_section__btn">Оставить заявку</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
 
             <footer>
                 <div class="footer_inner container grid-2">
@@ -356,62 +360,67 @@
                             <span>Разработка сайтов
                                 для бизнеса</span>
                         </div>
-                        <div class="footer_contacts grid-2">
-                            <div class="footer_social flex_column">
-                                <h2>Мы в соцсетях</h2>
-                                <div class="footer_social__tags flex_row">
-                                    <a href="" class="footer_social__tag flex_row">
-                                        <img src="./assets/icons/Social Icons-3.svg" alt="">
-                                        <p>Мы в Telegram</p>
-                                    </a>
-                                    <a href="" class="footer_social__tag flex_row">
-                                        <img src="./assets/icons/Social Icons-4.svg" alt="">
-                                        <p>WhatsApp<span class="footer_span">*</span></p>
-                                    </a>
+                        <div class="footer__left_kit card">
+                            <div class="promo-card">
+                                <div class="promo-card__text">
+                                    <span class="promo-card__tag">ОНТЕЙП КИТ</span>
+                                    <h2 class="promo-card__title">
+                                        Готовое решение для строительных компаний
+                                    </h2>
+                                    <a href="#" class="promo-card__button">Хочу КП по продукту</a>
                                 </div>
-                                <p class="footer_warning"><span class="footer_span">*</span>запрещенная организация на
-                                    территории
-                                    РФ</p>
-                            </div>
-                            <div class="footer_politics flex_column">
-                                <a href="">Политика конфиденциальности</a>
-                                <p><span class="span-politic">© ООО «ОНТЕЙП»</span>
-                                    Все права защищены</p>
+                                <div class="promo-card__image">
+                                    <img src="./assets/images/kit/footerkit.png" alt="Онтейп кит">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="footer_right grid-3">
                         <div class="footer_block__2 flex_column">
-                            <h3>УСЛУГИ</h3>
-                            <a href="services.html#ser1">Корпоративный сайт</a>
-                            <a href="services.html#ser2">Многостраничный сайт
-                                с каталогом</a>
-                            <a href="services.html#ser3">Интернет-магазин</a>
-                            <a href="services.html#ser4">Онтейп Кит</a>
+                            <div class="footer_social flex_column">
+                                <h2>Мы в соцсетях</h2>
+                                <div class="footer_social__tags flex_row">
+                                    <a href="https://t.me/@Ontape_Design" class="footer_social__tag flex_row">
+                                        <img src="./assets/icons/Social Icons-3.svg" alt="">
+                                        <p>Мы в Telegram</p>
+                                    </a>
+                                    <a href="https://wa.me/+79164251333" class="footer_social__tag flex_row">
+                                        <img src="./assets/icons/Social Icons-4.svg" alt="">
+                                        <p>WhatsApp<span class="footer_span">*</span></p>
+                                    </a>
+                                </div>
+                                <p class="footer_warning"><span class="footer_span">*</span>запрещенная организация
+                                    на
+                                    территории
+                                    РФ</p>
+                            </div>
+                            <div class="footer_politics flex_column">
+                                <a href="">Политика
+                                    конфиденциальности</a>
+                                <p><span class="span-politic">© ООО «ОНТЕЙП»</span>
+                                    Все права защищены</p>
+                            </div>
                         </div>
                         <div class="footer_block__3 flex_column">
-                            <h3>КОМПАНИЯ</h3>
+                            <h3>Карта сайта</h3>
                             <a href="company.html">О компании</a>
                             <a href="services.html">Услуги</a>
                             <a href="cases.html">Портфолио</a>
+                            <a href="blog.html">Блог</a>
                             <a href="contacts.html">Контакты</a>
                         </div>
                         <div class="footer_block__4 flex_column">
                             <h3>КОНТАКТЫ</h3>
+                            <div class="footer_mail flex_column">
+                                <h4>Email</h4>
+                                <a href="mailto:ontape-design@yandex.ru">ontape-design@yandex.ru</a>
+                            </div>
                             <div class="time flex_column">
                                 <h4>ВРЕМЯ РАБОТЫ</h4>
                                 <p class="time-text">ПН-ВС
                                     10:00 - 20:00
                                 </p>
                             </div>
-                            <div class="footer_mail flex_column">
-                                <h4>Email</h4>
-                                <a href="mailto:ontape-design@yandex.ru">ontape-design@yandex.ru</a>
-                            </div>
-                            <!-- <div class="footer_tel flex_column">
-                                <h4>Телефон</h4>
-                                <a href="tel:+79153136392">+7 (915) 313-63-92</a>
-                            </div> -->
                         </div>
                     </div>
                 </div>

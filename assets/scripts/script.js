@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    const cardGroups = document.querySelectorAll('.text_block__v12--cards');
+    /* const cardGroups = document.querySelectorAll('.text_block__v12--cards');
     cardGroups.forEach(group => {
         const cards = group.querySelectorAll('.stack_card');
         cards.forEach(card => {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 group.classList.toggle('active');
             });
         });
-    });
+    }); */
 
     if (typeof Swiper !== 'undefined') {
         new Swiper('.partners_slider--forward', {
@@ -248,3 +248,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
