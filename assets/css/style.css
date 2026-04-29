@@ -501,6 +501,7 @@ a {
 
 .mobile-menu.active .header__right_btn {
     display: block;
+    margin-bottom: 14px;
 }
 
 .mobile-menu .nav__list {
@@ -2184,7 +2185,8 @@ footer {
 }
 
 .about_company_text.p1 {
-    margin-bottom: 30px;
+    margin-bottom: 19px;
+    white-space: pre-line;
 }
 
 .about_company__cover_title {
@@ -3850,6 +3852,10 @@ button[type="submit"]:hover {
         flex-shrink: 0;
     }
 
+    .text_block__v10.company_blog {
+        padding-bottom: 60px;
+    }
+
     .text_block__v10--content {
         display: flex;
         flex-direction: column;
@@ -3873,7 +3879,7 @@ button[type="submit"]:hover {
 
     .text_block__v12--cards-column {
         flex-direction: row;
-            overflow-x: auto;
+        overflow-x: auto;
 
         scrollbar-width: none;
         -ms-overflow-style: none;
@@ -4353,6 +4359,13 @@ button[type="submit"]:hover {
     .cases_card_desc {
         font-size: 12px;
         margin-bottom: 6px;
+    }
+
+    .cases_card--bg-image.image2{
+        top: 26px;
+    }
+    .cases_card--bg-image.image3{
+        top: 10px;
     }
 
     /* text_block__v1 */
@@ -5104,6 +5117,7 @@ button[type="submit"]:hover {
 
     .about_company_text.p1 {
         margin-bottom: 20px;
+        white-space: normal;
     }
 
     .about_company__cover {
@@ -5178,6 +5192,7 @@ button[type="submit"]:hover {
 
     .about_company__text_card h4 {
         font-size: 24px;
+        white-space: nowrap;
     }
 
     .about_company__text_card p {
@@ -5404,5 +5419,10 @@ button[type="submit"]:hover {
         white-space: nowrap;
     }
 
+    .text-blockstack2.jsb p {
+        word-break: normal !important;
+        white-space: pre-line;
+        max-width: 216px !important;
+    }
 
 }
