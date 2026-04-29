@@ -4338,10 +4338,6 @@ button[type="submit"]:hover {
         white-space: pre-line;
     }
 
-    .cases_card--content.residence .cases_card__cheaps {
-        margin-top: 32px;
-    }
-
     .cases_card__cheaps {
         margin-top: 62px;
     }
