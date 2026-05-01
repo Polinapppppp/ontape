@@ -24,8 +24,8 @@
                         <nav aria-label="Основная навигация" class="desktop-nav">
                             <ul class="nav__list">
                                 <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
-                                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
                                 <li class="nav__item"><a class="nav__link" href="cases.html">Портфолио</a></li>
+                                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
                                 <li class="nav__item"><a class="nav__link" href="company.html">Компания</a></li>
                                 <li class="nav__item"><a class="nav__link" href="blog.html">Блог</a></li>
                                 <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
@@ -76,8 +76,8 @@
                     <div class="mobile-menu" id="mobileMenu">
                         <ul class="nav__list">
                             <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
-                            <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
                             <li class="nav__item"><a class="nav__link" href="cases.html">Портфолио</a></li>
+                            <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
                             <li class="nav__item"><a class="nav__link" href="company.html">Компания</a></li>
                             <li class="nav__item"><a class="nav__link" href="blog.html">Блог</a></li>
                             <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
@@ -85,7 +85,8 @@
 
                         <div class="header__right mobile-only-right"
                             style="margin-top: 20px; display: flex; gap: 10px;">
-                            <a href="#" class="header__right_btn light--btn js-open-modal" style="width: 100%; text-align: center;">Оставить
+                            <a href="#" class="header__right_btn light--btn js-open-modal"
+                                style="width: 100%; text-align: center;">Оставить
                                 заявку</a>
                         </div>
                     </div>
@@ -94,8 +95,7 @@
         </header>
         <main id="primary" class="site-main">
             <!-- banner_main -->
-            <section style="background-image: url(./assets/images/banner/cont.png);"
-                class="banner_main cases_banner">
+            <section style="background-image: url(./assets/images/banner/cont.png);" class="banner_main cases_banner">
                 <div class="banner_main__content container">
                     <div class="cases_banner_content">
                         <nav class="breadcrumbs" aria-label="Хлебные крошки">
@@ -214,43 +214,42 @@
                 </div>
             </section>
 
-                <div class="container top_pad btm_pad">
-                    <section class="section text_block__v2"
-                        style="background-image: url(./assets/images/form/form2.png);">
-                        <div class="text_block__v2--content">
-                            <div class="text_block__v2--title">
-                                <h2>Оставьте заявку
-                                    на&nbsp;<span class="form-span">создание сайта</span></h2>
-                                <p>Обсудим ваш проект и предложим лучшие&nbsp;решения под ваши задачи
-                                </p>
-                                <label class="form_checkbox">
-                                    <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
-                                    <span class="form-checkbox__text">Я согласен(а) на обработку
-                                        <a class="uderline-span js-cookie-popup">персональных&nbsp;данных</a></span>
-                                </label>
-                            </div>
-                            <form action="#" class="text_block__v2--form form_section">
-                                <div class="form_section__fields">
-                                    <div class="form_group">
-                                        <label for="name" class="form_label">Ваше имя*</label>
-                                        <input type="text" class="form_input" name="name" placeholder="Иван Иванов"
-                                            required>
-                                    </div>
-                                    <div class="form_group">
-                                        <label for="tel" class="form_label">Телефон для связи*</label>
-                                        <input type="tel" class="form_input" name="tel" placeholder="+7 (000) 000-00-00"
-                                            required>
-                                    </div>
-                                    <div class="form_group">
-                                        <label for="tel" class="form_label">Никнейм в Telegram</label>
-                                        <input type="tel" class="form_input" name="tel" placeholder="@ontape" required>
-                                    </div>
-
-                                    <button class="form_section__btn">Оставить заявку</button>
-                                </div>
-                            </form>
+            <div class="container top_pad btm_pad">
+                <section class="section text_block__v2" style="background-image: url(./assets/images/form/form2.png);">
+                    <div class="text_block__v2--content">
+                        <div class="text_block__v2--title">
+                            <h2>Оставьте заявку
+                                на&nbsp;<span class="form-span">создание сайта</span></h2>
+                            <p>Обсудим ваш проект и предложим лучшие&nbsp;решения под ваши задачи
+                            </p>
+                            <label class="form_checkbox">
+                                <input class="form_checkbox__input" type="checkbox" name="agreement" id="" required>
+                                <span class="form-checkbox__text">Я согласен(а) на обработку
+                                    <a class="uderline-span" href="policy.html">персональных&nbsp;данных</a></span>
+                            </label>
                         </div>
-                    </section>
+                        <form action="#" class="text_block__v2--form form_section">
+                            <div class="form_section__fields">
+                                <div class="form_group">
+                                    <label for="name" class="form_label">Ваше имя*</label>
+                                    <input type="text" class="form_input" name="name" placeholder="Иван Иванов"
+                                        required>
+                                </div>
+                                <div class="form_group">
+                                    <label for="tel" class="form_label">Телефон для связи*</label>
+                                    <input type="tel" class="form_input" name="tel" placeholder="+7 (000) 000-00-00"
+                                        required>
+                                </div>
+                                <div class="form_group">
+                                    <label for="tel" class="form_label">Никнейм в Telegram</label>
+                                    <input type="tel" class="form_input" name="tel" placeholder="@ontape" required>
+                                </div>
+
+                                <button class="form_section__btn">Оставить заявку</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
             </div>
 
             <footer>
@@ -296,7 +295,7 @@
                                     РФ</p>
                             </div>
                             <div class="footer_politics flex_column">
-                                <a href="">Политика 
+                                <a href="">Политика
                                     конфиденциальности</a>
                                 <p><span class="span-politic">© ООО «ОНТЕЙП»</span>
                                     Все права защищены</p>
@@ -305,8 +304,8 @@
                         <div class="footer_block__3 flex_column">
                             <h3>Карта сайта</h3>
                             <a href="company.html">О компании</a>
-                            <a href="services.html">Услуги</a>
                             <a href="cases.html">Портфолио</a>
+                            <a href="services.html">Услуги</a>
                             <a href="blog.html">Блог</a>
                             <a href="contacts.html">Контакты</a>
                         </div>
@@ -326,27 +325,8 @@
                     </div>
                 </div>
             </footer>
-            <div class="cookie-modal container" id="cookieModal">
-                <div class="cookie-modal__content container">
-                    <button class="cookie-modal__close" aria-label="Закрыть"><svg width="12" height="12"
-                            viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13 13L1 1M13 1L1 13" stroke="white" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <h3 class="cookie-modal__title">Файлы Cookie</h3>
-                    <div class="cookie__agree">
-                        <p class="cookie-modal__text">
-                            Наш сайт использует куки.<br>
-                            Продолжая им пользоваться, вы&nbsp;соглашаетесь на обработку
-                            персональных данных в соответствии с <a href="policy.html"
-                                class="cookie-modal__link">политикой конфиденциальности.</a>
-                        </p>
-                        <button class="cookie-modal__btn js-cookie-accept">Согласен(а)</button>
-                    </div>
-                </div>
-            </div>
-                <div class="close-popup" id="popupModal">
+
+            <div class="close-popup" id="popupModal">
                 <div class="close-popup__form flex_column">
                     <h2>Оставить заявку</h2>
                     <div class="close-popup__form_clos" id="closePopupBtn"></div>
@@ -370,7 +350,7 @@
                             <label class="fpopup_checkbox">
                                 <input class="popup_checkbox__input" type="checkbox" name="agreement" id="" required>
                                 <span class="popup-checkbox__text">Я согласен(а) на обработку
-                                    <a class="uderline-span js-cookie-popup">персональных данных</a></span>
+                                    <a class="uderline-span" href="policy.html">персональных данных</a></span>
                             </label>
                         </div>
                         <button type="submit">Оставить заявку</button>
