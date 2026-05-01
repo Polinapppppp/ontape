@@ -700,7 +700,8 @@ section.banner_main {
     margin-bottom: 9.5px;
     transition: 0.5s ease;
 }
-.cases_filter--btn:hover{
+
+.cases_filter--btn:hover {
     background-color: var(--text);
     color: #fff;
 }
@@ -825,7 +826,7 @@ section.banner_main {
     z-index: -1;
     transition: transform 0.6s ease-out;
     pointer-events: none;
-    transform-origin: right bottom; 
+    transform-origin: right bottom;
 }
 
 .cases_card.card:hover .cases_card--bg-image {
@@ -1030,7 +1031,7 @@ section.banner_main {
     transition: 0.5s ease;
 }
 
-.uderline-span:hover{
+.uderline-span:hover {
     color: #f94433;
     transition: 0.5s ease;
 }
@@ -1123,7 +1124,7 @@ input[type="checkbox"]:checked {
     transition: 0.5s ease;
 }
 
-.dark-section .text_block__v3--btn:hover{
+.dark-section .text_block__v3--btn:hover {
     background-color: var(--text);
     color: #fff;
     transition: 0.5s ease;
@@ -1633,7 +1634,8 @@ input[type="checkbox"]:checked {
     padding: 12px 48.5px;
     transition: 0.5s ease;
 }
-.text_block__v4--card_v2--btn:hover{
+
+.text_block__v4--card_v2--btn:hover {
     background-color: #176c4a;
 }
 
@@ -1938,7 +1940,7 @@ footer {
     transition: 0.5s ease;
 }
 
-.footer_social__tag p:hover{
+.footer_social__tag p:hover {
     transition: 0.5s ease;
     color: #c1c1c1;
 }
@@ -2026,7 +2028,7 @@ footer {
 }
 
 .footer_block__2 a:hover,
-.footer_block__3 a:hover{
+.footer_block__3 a:hover {
     color: #c1c1c1;
     transition: 0.5s ease;
 
@@ -2249,6 +2251,13 @@ footer {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 2%;
+    transition: 0.5s ease;
+}
+
+.about_company--btn:hover {
+    transition: 0.5s ease;
+    background: var(--text);
+    color: #fff;
 }
 
 .about_company__cover::before {
@@ -3324,10 +3333,13 @@ button[type="submit"]:hover {
     border-radius: 16px;
     padding: 12px;
     color: rgba(255, 255, 255, 1);
+    transition: 0.5s ease;
+
 }
 
 .cookie-modal__btn:hover {
-    background: var(--text-accent);
+    background: #b52619;
+    transition: 0.5s ease;
 }
 
 .cookie-modal__close {
@@ -3531,7 +3543,7 @@ button[type="submit"]:hover {
     transition: 0.5s ease;
 }
 
-.promo-card__button:hover{
+.promo-card__button:hover {
     background: #176c4a;
     transition: 0.5s ease;
 
@@ -4401,10 +4413,11 @@ button[type="submit"]:hover {
         margin-bottom: 6px;
     }
 
-    .cases_card--bg-image.image2{
+    .cases_card--bg-image.image2 {
         top: 26px;
     }
-    .cases_card--bg-image.image3{
+
+    .cases_card--bg-image.image3 {
         top: 10px;
     }
 
@@ -5465,11 +5478,11 @@ button[type="submit"]:hover {
         max-width: 216px !important;
     }
 
-    .cookie-modal.active{
+    .cookie-modal.active {
         left: 46%;
     }
-    
-    .cookie__agree{
+
+    .cookie__agree {
         flex-direction: column;
         align-items: start;
     }
