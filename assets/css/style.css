@@ -1027,7 +1027,12 @@ section.banner_main {
 
 .uderline-span {
     text-decoration: underline;
+    transition: 0.5s ease;
+}
+
+.uderline-span:hover{
     color: #f94433;
+    transition: 0.5s ease;
 }
 
 input[type="checkbox"] {
