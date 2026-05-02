@@ -2403,6 +2403,28 @@ footer {
     letter-spacing: 0.02em;
     font-weight: 400;
     display: block;
+    transition: 0.5s ease;
+}
+
+.prodaction--btn:hover {
+    background-color: rgb(26, 163, 124) !important;
+    transition: 0.5s ease;
+}
+
+.design--btn:hover {
+    background-color: #b52619 !important;
+    transition: 0.5s ease;
+}
+
+.ads--btn:hover {
+    background-color: rgb(22, 103, 190) !important;
+    transition: 0.5s ease;
+}
+
+.kit--btn:hover {
+    background-color: rgb(49, 44, 159) !important;
+    transition: 0.5s ease;
+
 }
 
 .company_card__right {
@@ -2477,7 +2499,7 @@ footer {
 }
 
 .text_block__v8--btn {
-
+cursor: pointer;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -2486,6 +2508,13 @@ footer {
     font-weight: 400;
     text-align: center;
     display: block;
+    transition: 0.5s ease;
+
+}
+.text_block__v8--btn:hover{
+    transition: 0.5s ease;
+    background-color: var(--background);
+    color: black;
 }
 
 /* text_block__v9 */
@@ -2688,8 +2717,13 @@ footer {
     letter-spacing: 2%;
     max-width: fit-content;
     font-weight: 500;
+    transition: 0.5s ease;
 }
 
+.text_block__v10-title--btn:hover{
+    color: var(--text);
+    background-color: #fff;
+}
 
 /* text_block__v11 */
 .text_block__v11 {
